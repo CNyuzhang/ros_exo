@@ -1,0 +1,7 @@
+-I/home/yuzhang/Desktop/project/siat_exo/src/eigen/eigen-eigen-da9b4e14c255
+-I/home/yuzhang/Desktop/project/siat_exo/src/eigen
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/home/yuzhang/Desktop/project/siat_exo/src/eigen/demos/mandelbrot/mandelbrot.moc
+/home/yuzhang/Desktop/project/siat_exo/src/eigen/eigen-eigen-da9b4e14c255/demos/mandelbrot/mandelbrot.h

@@ -1,0 +1,8 @@
+prefix=/home/yuzhang/Desktop/project/siat_exo/install
+
+Name: rviz_imu_plugin
+Description: Description of rviz_imu_plugin
+Version: 1.0.15
+Cflags: 
+Libs: -L/home/yuzhang/Desktop/project/siat_exo/install/lib 
+Requires: rviz

@@ -1,0 +1,8 @@
+prefix=/home/yuzhang/Desktop/project/siat_exo/devel
+
+Name: imu_complementary_filter
+Description: Description of imu_complementary_filter
+Version: 1.0.15
+Cflags: -I/home/yuzhang/Desktop/project/siat_exo/src/imu_tools/imu_complementary_filter/include
+Libs: -L/home/yuzhang/Desktop/project/siat_exo/devel/lib -lcomplementary_filter
+Requires: message_filters roscpp sensor_msgs std_msgs tf

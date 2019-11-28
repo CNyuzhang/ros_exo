@@ -1,0 +1,8 @@
+prefix=/home/yuzhang/Desktop/project/siat_exo/install
+
+Name: new_msgs
+Description: Description of new_msgs
+Version: 0.0.0
+Cflags: -I/home/yuzhang/Desktop/project/siat_exo/install/include
+Libs: -L/home/yuzhang/Desktop/project/siat_exo/install/lib 
+Requires: message_runtime

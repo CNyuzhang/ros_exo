@@ -1,0 +1,7 @@
+-I/home/yuzhang/Downloads/eigen-eigen-da9b4e14c255
+-I/home/yuzhang/Downloads/eigen-eigen-da9b4e14c255/build
+-I/usr/include/qt4
+-DNDEBUG
+-o
+/home/yuzhang/Downloads/eigen-eigen-da9b4e14c255/build/demos/mandelbrot/mandelbrot.moc
+/home/yuzhang/Downloads/eigen-eigen-da9b4e14c255/demos/mandelbrot/mandelbrot.h

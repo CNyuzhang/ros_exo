@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yuzhang/Desktop/project/siat_exo/src/eigen/eigen-eigen-da9b4e14c255/test/array_reverse.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "array_reverse_3"
+	}
+}

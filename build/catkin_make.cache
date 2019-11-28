@@ -1,0 +1,2 @@
+new_msgs:serialPort
+-DCATKIN_DEVEL_PREFIX=/home/yuzhang/Desktop/project/siat_exo/devel -DCMAKE_INSTALL_PREFIX=/home/yuzhang/Desktop/project/siat_exo/install -G Unix Makefiles
