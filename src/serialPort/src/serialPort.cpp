@@ -13,11 +13,11 @@ new_msgs::new_msgs MSG;
 void write_callback(const std_msgs::UInt8MultiArray::ConstPtr &msg)
 {
 
-      if(sizeof(msg)>1)
-      {
-         ROS_INFO("serial heard:  %x ,%x, %x,%x", msg->data[0], msg->data[1],msg->data[2], msg->data[3]);
+     //  if(sizeof(msg)>1)
+     //  {
+         ROS_INFO("serial heard:  %x ,%x", msg->data[0], msg->data[1]);
           ser.write(msg->data); //发送串口数据
-      }
+      //}
 
 }
 int main(int argc, char **argv)

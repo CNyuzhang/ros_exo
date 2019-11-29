@@ -59,7 +59,8 @@
         "future": "cpp",
         "mutex": "cpp",
         "valarray": "cpp",
-        "eigen": "cpp"
+        "eigen": "cpp",
+        "alignedvector3": "cpp"
     },
     "python.autoComplete.extraPaths": [
         "/home/yuzhang/Desktop/project/siat_exo/devel/lib/python2.7/dist-packages",

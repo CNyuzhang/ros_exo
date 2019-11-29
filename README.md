@@ -112,6 +112,10 @@
     cout << "Here is the matrix a^*\n" << a.adjoint() << endl;
 
     ```
+##### 4.滤波
+收到的实际力进行滤波，防止错误数据造成过大干扰。
+
+
 
 ---
 ##### 错误总结
@@ -120,3 +124,5 @@
 首先按照[这个方式](https://github.com/ros/genmsg/issues/41)无效果，还是错误；**傻逼！单词打错了，float float float**
 
 ###### 2.接收时候直接用自定义的数据，会报错：Segmentation fault (core dumped) ,使用局部定义的变量没问题
+
+###### 3.使用Eigen进行矩阵运算的时候，要把乘除和加减分开，尤其是相乘之后为标量的话。
